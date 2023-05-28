@@ -1,0 +1,27 @@
+.carousel {
+  @apply w-full md:max-w-3xl max-w-sm mx-auto;
+}
+
+.carousel__background {
+  @apply bg-white max-w-full;
+}
+
+.carousel__figure {
+  @apply w-full mx-auto bg-white;
+}
+
+.carousel__figure__img {
+  @apply cursor-pointer;
+}
+
+.carousel__list {
+  @apply mt-2 w-full overflow-x-auto overflow-y-hidden bg-white inline-flex gap-1;
+}
+
+.carousel__list__figure {
+  @apply w-20 cursor-pointer;
+}
+
+.carousel__list__figure__img {
+  @apply cursor-pointer;
+}

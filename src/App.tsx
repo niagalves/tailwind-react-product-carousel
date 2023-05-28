@@ -1,8 +1,22 @@
+import { useEffect, useState } from 'react';
+import json from './json/data.json';
+import Carousel from './components/Carousel';
+
 function App() {
+  const [images, setImages] = useState<Image[]>([]);
+
+  useEffect(() => {
+    function populateImages(): void {
+      setImages(json);
+    }
+
+    populateImages();
+  }, [images]);
+
   return (
-    <div>
-      <h1 className="text-3xl font-bold underline">Hello world!</h1>
-    </div>
+    <section>
+      <Carousel images={images} />
+    </section>
   );
 }
 

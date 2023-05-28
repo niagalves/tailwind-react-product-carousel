@@ -1,1 +1,1 @@
-# react-product-carousel
+# tailwind-react-product-carousel
