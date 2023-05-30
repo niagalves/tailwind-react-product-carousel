@@ -1,5 +1,5 @@
 .carousel {
-  @apply w-full md:max-w-3xl max-w-sm mx-auto;
+  @apply w-full md:max-w-3xl max-w-sm mx-auto select-none;
 }
 
 .carousel__background {
